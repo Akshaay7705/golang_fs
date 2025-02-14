@@ -148,11 +148,11 @@ func main() {
 	}))
 
 	// // Routes
-	// r.POST("/cars", createCar)
-	// r.GET("/cars", readAllCars)
+	r.POST("/cars", createCar)
+	r.GET("/cars", readAllCars)
 	r.GET("/cars/:id", readCarById)
-	// r.PUT("/cars/:id", updateCar)
-	// r.DELETE("/cars/:id", deleteCar)
+	r.PUT("/cars/:id", updateCar)
+	r.DELETE("/cars/:id", deleteCar)
 
 
 
